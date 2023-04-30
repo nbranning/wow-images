@@ -18,7 +18,7 @@ This is a Single Page Application (SPA) built with Vue.js, Laravel, and Tailwind
 3. Install dependencies: `composer install` and `npm install`
 4. Create a `.env` file: `cp .env.example .env` and update your database credentials
 5. Generate an application key: `php artisan key:generate`
-6. Generate an NASA api key at (https://api.nasa.gov/) and update the "NASA_APIA_KEY" in the .env file
+6. Generate an NASA api key at (https://api.nasa.gov/) and update the "NASA_API_KEY" in the .env file
 7. Update the vite.config.js file for your host environment, lines 8, and 11.
 8. Run database migrations: `php artisan migrate`
 9. Build the application: `npm run dev`

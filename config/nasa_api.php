@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'api_key' => env('NASA_APIA_KEY', '0'),
+    'api_key' => env('NASA_API_KEY', '0'),
 ];
