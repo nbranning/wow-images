@@ -9,4 +9,8 @@ class WowImagesComment extends Model
 {
     use HasFactory;
     protected $guarded = [];
+
+    public function wow_images(){
+        return $this->belongsTo('App\Models\WowImage');
+    }
 }

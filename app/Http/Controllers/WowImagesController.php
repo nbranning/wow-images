@@ -19,8 +19,9 @@ class WowImagesController extends Controller{
     }
 
     public function destroy($id){
-        $item = WowImage::find($id);
-        $item->delete();
+        $image = WowImage::find($id);
+        $image->wow_images_comments()->delete();
+        $image->delete();
         return response()->json('Deleted!');
     }
 }
